@@ -1,0 +1,14 @@
+<% layout("/layouts/boilerplate") %>
+<body>
+    <form method="post" action="/listings" novalidate class="needs-validation" >
+        <input type="text" placeholder="enter the details " name="li[title]" required><br><br>
+        <textarea name="li[description]" id="" placeholder="enter the description" required></textarea><br><br>
+        <input type="text" placeholder="enter the link/url of image"name="li[image]"><br><br>
+        <input type="number" placeholder="enter the price" name="li[price]" required><br><br>
+        <input type="text" placeholder="enter your location" name="li[location]" required><br><br>
+        <input type="text" placeholder="enter your country" name="li[country]" required><br><br>
+        <button>create</button>
+    </form>
+</body>
+
+

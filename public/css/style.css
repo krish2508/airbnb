@@ -1,0 +1,43 @@
+body{
+    background-color: pink;
+}
+.navbar{
+    background-color: white;
+    height: 10vh;
+}
+.fa-compass{
+    color: red;
+}
+.nav-link{
+    color: rgb(0, 0, 0) !important;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+
+    text-align: center;
+
+}
+.fa-info-links a{
+    text-decoration: none;
+    color: black;
+}
+.fa-info-links a:hover{
+    text-decoration: underline;
+}
+.fa-info-socials,.fa-info-links,.fa-info-text{
+    width: 100%;
+}
+.fa-info-socials i{
+    width: 1rem;
+}
+/* card */
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100%;
+    object-fit: cover;
+}

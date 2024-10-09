@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    margin-top: 20vh;
+    margin-bottom: 30px;
+
+}
+input{
+    font-size: 1rem;
+    width: 300px;
+    padding: 6px 2px; 
+    margin: 10px 0 10px 0;
+}
+.sub{
+    background-color:rgb(23, 86, 111);
+    cursor: pointer;
+    padding: 10px 35px;
+}
+button{
+    color: white;
+    margin-bottom: 7px;
+}
+
+form{
+    /* margin-top: 20vh; */
+    text-align: center;
+    border: 5px solid rgb(23, 86, 111);
+    padding: 20px;
+    background-color: rgb(146, 223, 248);
+}
