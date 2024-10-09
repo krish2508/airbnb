@@ -21,7 +21,7 @@ app.get("/signup", (req, res) => {
     res.render("auth/signup.ejs");
 });
 app.get("/", (req, res) => {
-    res.render("auth/login.ejs");
+    res.render("auth/login.ejs");;
 });
 
 app.post("/signup", async (req, res) => {
